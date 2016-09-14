@@ -29,16 +29,16 @@ greg.ross.visualisation.MagicTable = function(container)
 greg.ross.visualisation.MagicTable.load = function()
 {
     var sources = [];
-    sources[0] = "http://magic-table.googlecode.com/svn/trunk/magic-table/javascript/Hashtable.js";
-    sources[1] = "http://magic-table.googlecode.com/svn/trunk/magic-table/javascript/Fisheye.js";
-    sources[2] = "http://magic-table.googlecode.com/svn/trunk/magic-table/javascript/Matrix.js";
-    sources[3] = "http://magic-table.googlecode.com/svn/trunk/magic-table/javascript/TableModel.js";
-    sources[4] = "http://magic-table.googlecode.com/svn/trunk/magic-table/javascript/fisheyeTable.js";
-    sources[5] = "http://magic-table.googlecode.com/svn/trunk/magic-table/javascript/FisheyeCellRenderer.js";
-    sources[6] = "http://magic-table.googlecode.com/svn/trunk/magic-table/javascript/DefaultCellRenderer.js";
-    sources[7] = "http://magic-table.googlecode.com/svn/trunk/magic-table/javascript/ScaleCellRenderer.js";
-    sources[8] = "http://magic-table.googlecode.com/svn/trunk/magic-table/javascript/CanvasTextFunctions.js";
-    sources[9] = "http://magic-table.googlecode.com/svn/trunk/magic-table/javascript/ColourGradient.js";
+    sources[0] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/Hashtable.js";
+    sources[1] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/Fisheye.js";
+    sources[2] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/Matrix.js";
+    sources[3] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/TableModel.js";
+    sources[4] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/fisheyeTable.js";
+    sources[5] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/FisheyeCellRenderer.js";
+    sources[6] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/DefaultCellRenderer.js";
+    sources[7] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/ScaleCellRenderer.js";
+    sources[8] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/CanvasTextFunctions.js";
+    sources[9] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/ColourGradient.js";
     
     var e;
     
