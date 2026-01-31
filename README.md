@@ -14,7 +14,7 @@ By Dr Greg Ross
 ### See more of your data at a glance ###
 The _Magic Table_ is a JavaScript library that allows you to see more in your data by applying some simple visual techniques to transform a table.
 
-## See this [jsFiddle](https://jsfiddle.net/gregxross/y27acu30/7/) for an example of how to convert an HTML table to a Magic Table. ##
+## See this [jsFiddle](https://jsfiddle.net/gregxross/y27acu30/8/) for an example of how to convert an HTML table to a Magic Table. ##
 
 
 ## More information and examples can be found [here](http://www.grvisualisation.50webs.com/). ##
