@@ -38,7 +38,7 @@ greg.ross.visualisation.MagicTable.load = function()
     sources[7] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/ScaleCellRenderer.js";
     sources[8] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/CanvasTextFunctions.js";
     sources[9] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/ColourGradient.js";
-    sources[2] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/Hashtable.js";
+    sources[10] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/Hashtable.js";
     
     var e;
     
