@@ -28,17 +28,22 @@ greg.ross.visualisation.MagicTable = function(container)
 
 greg.ross.visualisation.MagicTable.load = function()
 {
+    // Get the absolute URL of the current script
+    const scriptSrc = document.currentScript.src;
+    const lastSlashIndex = scriptSrc.lastIndexOf('/');
+    const pth = scriptSrc.substring(0, lastSlashIndex + 1);
+
     var sources = [];
-    sources[1] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/Fisheye.js";
-    sources[2] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/Matrix.js";
-    sources[3] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/TableModel.js";
-    sources[4] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/fisheyeTable.js";
-    sources[5] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/FisheyeCellRenderer.js";
-    sources[6] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/DefaultCellRenderer.js";
-    sources[7] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/ScaleCellRenderer.js";
-    sources[8] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/CanvasTextFunctions.js";
-    sources[9] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/ColourGradient.js";
-    sources[10] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/Hashtable.js";
+    sources[1] = pth+"/Fisheye.js";
+    sources[2] = pth+"/Matrix.js";
+    sources[3] = pth+"/TableModel.js";
+    sources[4] = pth+"/fisheyeTable.js";
+    sources[5] = pth+"/FisheyeCellRenderer.js";
+    sources[6] = pth+"/DefaultCellRenderer.js";
+    sources[7] = pth+"/ScaleCellRenderer.js";
+    sources[8] = pth+"/CanvasTextFunctions.js";
+    sources[9] = pth+"/ColourGradient.js";
+    sources[10] = pth+"/Hashtable.js";
     
     var e;
     
