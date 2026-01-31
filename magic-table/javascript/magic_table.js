@@ -29,16 +29,15 @@ greg.ross.visualisation.MagicTable = function(container)
 greg.ross.visualisation.MagicTable.load = function()
 {
     var sources = [];
-    sources[0] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/Hashtable.js";
-    sources[1] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/Fisheye.js";
-    sources[2] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/Matrix.js";
-    sources[3] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/TableModel.js";
-    sources[4] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/fisheyeTable.js";
-    sources[5] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/FisheyeCellRenderer.js";
-    sources[6] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/DefaultCellRenderer.js";
-    sources[7] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/ScaleCellRenderer.js";
-    sources[8] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/CanvasTextFunctions.js";
-    sources[9] = "http://rawgit.com/gregross/magic-table/master/magic-table/javascript/ColourGradient.js";
+    sources[1] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/Fisheye.js";
+    sources[2] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/Matrix.js";
+    sources[3] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/TableModel.js";
+    sources[4] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/fisheyeTable.js";
+    sources[5] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/FisheyeCellRenderer.js";
+    sources[6] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/DefaultCellRenderer.js";
+    sources[7] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/ScaleCellRenderer.js";
+    sources[8] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/CanvasTextFunctions.js";
+    sources[9] = "https://cdn.jsdelivr.net/gh/gregross/magic-table/magic-table/javascript/ColourGradient.js";
     
     var e;
     
